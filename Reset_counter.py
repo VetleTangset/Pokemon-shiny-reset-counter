@@ -1,6 +1,7 @@
 import csv
 from pynput import keyboard
 
+# Change these buttons for your setup, sequens does not matter
 reset_sequence = {
     keyboard.KeyCode.from_char('x'),
     keyboard.KeyCode.from_char('z'),
